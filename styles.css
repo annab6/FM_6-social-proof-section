@@ -27,6 +27,10 @@ body{
    font-family:var(--ff-main);
    font-size:var(--fs-s);
    line-height:var(--line-height);
+   background-image: url("/images/bg-pattern-top-mobile.svg"),
+   url("/images/bg-pattern-bottom-mobile.svg");
+   background-repeat:no-repeat, no-repeat;
+   background-position: top left, bottom right;
 }
 .hero__title{
     color: var(--very-dark-magenta);
@@ -99,7 +103,11 @@ body{
 }
 
 @media(min-width:1030px){
-     .container{
+    body{
+        background-image: url("/images/bg-pattern-top-desktop.svg"),
+        url("/images/bg-pattern-bottom-desktop.svg");
+     }
+    .container{
         width:85%;
         max-width:1200px;
         margin:9em auto;
