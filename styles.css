@@ -27,8 +27,8 @@ body{
    font-family:var(--ff-main);
    font-size:var(--fs-s);
    line-height:var(--line-height);
-   background-image: url("/images/bg-pattern-top-mobile.svg"),
-   url("/images/bg-pattern-bottom-mobile.svg");
+   background-image: url("./images/bg-pattern-top-mobile.svg"),
+   url("./images/bg-pattern-bottom-mobile.svg");
    background-repeat:no-repeat, no-repeat;
    background-position: top left, bottom right;
 }
@@ -104,8 +104,8 @@ body{
 
 @media(min-width:1030px){
     body{
-        background-image: url("/images/bg-pattern-top-desktop.svg"),
-        url("/images/bg-pattern-bottom-desktop.svg");
+        background-image: url("./images/bg-pattern-top-desktop.svg"),
+        url("./images/bg-pattern-bottom-desktop.svg");
      }
     .container{
         width:85%;
@@ -151,7 +151,7 @@ body{
         margin:0 0 0 1.5em;
     }
     .reviews__item{
-        max-height:290px;
+        max-height:310px;
     }
     .reviews__item:nth-of-type(2){
         margin-top:2em;
